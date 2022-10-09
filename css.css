@@ -4,8 +4,8 @@
 
 .container{
     max-width: 400px;
-    margin: 10vh auto 0 auto;
-    box-shadow: 0px 0px 12px 17px rgba(153, 153, 153, 0.1);
+    margin: 5vh auto 0 auto;
+    box-shadow: 0px 12px 12px 17px rgba(153, 153, 153, 0.1);
     
 }
 
@@ -16,6 +16,7 @@
     padding: 16px 8px;
     font-size: 25px;
     border: solid 1px #999;
+    background-color: rgb(92,124,219);
 }
 
 .buttons {
@@ -47,4 +48,55 @@
     background-color: grey;
     color: white;
     transition:0.3s ease-in-out;
+}
+
+.foot{
+    color: grey;
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+    order: 3;
+    width: 300px;
+    left: 595px;
+    bottom: 0%;
+}
+
+.color{
+    display: grid;
+    height: 645px;
+    width: 156px;
+    top: 5vh;
+    right: 5vh;
+    position: absolute;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 12px 17px rgba(153, 153, 153, 0.1);
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.color > div{
+    text-align: center;
+    padding: 0px;
+    font-size: 30px;
+    cursor: pointer;
+    height: 116px;
+    width: 153px;
+    border: black solid 2px;
+}
+
+#normal{
+    background:linear-gradient(45deg, blue, blue 50%, white 50%, white);
+}
+#red{
+    background:linear-gradient(45deg, red, red 50%, white 50%, white);
+}
+#orange{
+    background:linear-gradient(45deg, rgb(255,94,0), rgb(255,94,0) 50%, white 50%, white);
+}
+#green{
+    background:linear-gradient(45deg, rgb(118,239,0), rgb(118,239,0) 50%, white 50%, white);
+}
+#black{
+    background:linear-gradient(45deg, black, black 50%, white 50%, white);
 }
